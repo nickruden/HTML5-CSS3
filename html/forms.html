@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+</head>
+<body>
+  <form action="" method="">
+    <label for="nam1">First name</label>
+    <input type="text" name="first_name" id="name1">
+    <!-- or 
+    <label>
+      first name 
+      <input type="text" name="first_name">
+    </label> -->
+    <br>
+
+    <p>- Password and email -</p>
+    <input type="password" placeholder="****">
+    <br>
+
+    <!-- Value - fixed text -->
+    <input type="email" name="" value="email@email.com ">
+    <br>
+
+    <p>- Discription -</p>
+    <textarea name="" id="" cols="40" rows="10"></textarea>
+    <br>
+
+    <!--Single choice -->
+    <p>Please select your favorite fruit</p>
+    <input type="radio" name="fruit" id="">Orange
+    <input type="radio" name="fruit" id="">Peach
+    <input type="radio" name="fruit" id="">Banana
+    <br>
+
+    <!-- Multiple choice -->
+    <p>Please select your favorite coding languages?</p>
+    <input type="checkbox" name="programming" id="" value="JavaScript">JavaScript
+    <input type="checkbox" name="programming" id="" value="Python">Python
+    <input type="checkbox" name="programming" id="" value="C++">C++
+    <br>
+
+    <!-- Select -->
+    <p>Please select your favorite animal</p>
+    <select name="animals" id="">
+      <option value="dog">Dog</option>
+      <option value="dog">Cat</option>
+      <option value="dog">Parrot</option>
+    </select>
+    <br>
+    <br>
+
+    <!-- Buttons -->
+    <input type="submit" value="Отправить">
+    <!-- or <button type="submit">Отправитьt</button> or <input type="submit"> -->
+  </form>
+</body>
+</html>
