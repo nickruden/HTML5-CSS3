@@ -1,0 +1,24 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.namepage{
+  font-size: 22px;
+}
+a{
+  color:rgba(145, 32, 32, 0.788);
+  text-decoration: solid;
+}
+a:hover{
+  color: rgb(255, 0, 0);
+}
+li>a{
+  font-size: 18px;
+}
+td{
+  font-size: 20px;
+  color:rgb(180, 65, 65);
+}
+th{
+  font-size: 20px;
+  color: rgb(97, 34, 34);
+}
