@@ -1,0 +1,35 @@
+/* ELEMENT SELECTORS */
+div{
+  color:red;
+}
+h1, h2{
+  color:blue;
+}
+p{
+  color:grey;
+}
+
+/* ID */
+#title{
+  color:green;
+  background: black;
+}
+#subheading{
+  color:red;
+  background: grey;
+}
+#titles{
+  font-size: 40px;
+}
+
+/* CLASS SELECTORS */
+.green{
+  color:green;
+}
+.red{
+  color:red;
+  background:gray;
+}
+.lowercase{
+  text-transform: lowercase;
+}
