@@ -33,3 +33,9 @@ p{
 .lowercase{
   text-transform: lowercase;
 }
+
+/* UNIVERSAL SELECTOR*/
+*{
+  color:blue;
+  /*наименьший приоритет*/
+}
