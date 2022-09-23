@@ -1,0 +1,78 @@
+/* COLOR PROPERTIES */
+/* COLOR BACKGROUND-COLOR */
+/* COLOR NAMES 140 */
+
+#first{
+  color:lightslategray;
+  background-color: chocolate;
+}
+#second{
+  color:crimson;
+  background: yellow;
+}
+
+
+/* RGB TED GREEN BLUE 0-255 */
+
+#first{
+  color: rgb(255, 0, 0);
+  background-color:rgb(0, 0, 0);
+}
+#second{
+  color:rgb(0, 255, 0);
+  background: rgb(255, 255, 255);
+}
+#thee{
+  color:rgb(0, 0, 255);
+  background: rgb(100, 100, 100);
+}
+body{
+  background: rgb(100, 34, 210);
+}
+
+
+/* RGBA 0-1 opacity/transparency */
+
+#first{
+  color: rgb(100, 123, 56);
+  background: rgba(0, 0, 0, 0.5);
+}
+#second{
+  color: rgb(45, 10, 34);
+  background: rgba(0, 0, 0, 0.25);
+}
+#three{
+  color: rgb(255,0, 0);
+  background: rgba(0, 0, 0, 0);
+}
+#four{
+  color:rgb(0, 0, 255);
+  background: rgba(0, 0, 0, 1);
+}
+body{
+  background: rgba(10, 200, 200, 0.56);
+}
+
+
+/* HSL 
+   HEX values #RRGGBB 
+   123456789 A(10) B(11) C(12) D(13) E(14) F(15)
+    #FF0000 - RED 
+    #00FF00 - GREN */
+
+#first{
+  color: #ff0000;
+  background: #000;
+}
+#second{
+  color: #fff;
+  background: #00FF00;
+}
+#three{
+  color: #0000ff;
+  background: #f15025;
+}
+#four{
+  color: #f234ad;
+  background: #222;
+}
