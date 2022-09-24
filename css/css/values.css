@@ -1,0 +1,58 @@
+/* Percent Values - RELATIVE */
+.outer{
+  width: 400px;
+  height: 200px;
+  background: blue;
+}
+
+.inner{
+  width: 100%;
+  height: 50%;
+  background: red;
+}
+
+/* em - RELAITIVE dpends on parent 
+1em = 16px default browser style;
+1em = base value; */
+div{
+  font-size: 10px;
+}
+.relative{
+  font-size: 2em;
+}
+.absolute{
+  font-size: 32px;
+}
+
+/* rem - RELATIVE dpends on root 
+1rem = 16 px default browser style */
+html{
+  font-size: 32px;
+}
+div{
+  font-size: 40px;
+}
+.relative{
+  font-size: 1.5rem;
+}
+.absolute{
+  font-size: 48px;
+}
+
+/* vh - height - percent of the screen 
+   vw - wight - percent of the screen */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.banner{
+  width: 50vw;
+  height: 50vh;
+  background: red;
+}
+.header{
+  width: 100vw;
+  height: 100vh;
+  background: blue;
+}
