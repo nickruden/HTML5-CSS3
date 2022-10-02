@@ -1,0 +1,18 @@
+/* font-size font-family */
+body{
+  font-family:'Courier New', Courier, monospace
+}
+h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@import url(https://fonts.google.com/specimen/Roboto);
+/* GOOGLE FONTS */
+body{
+  font-family: "Roboto", sans-serif;
+}
+h1{
+  font-family: "Yesteryear", cursive;
+}
+
+/* 5:46:05... */
