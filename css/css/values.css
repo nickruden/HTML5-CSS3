@@ -24,7 +24,7 @@ div{
   font-size: 32px;
 }
 
-/* rem - RELATIVE dpends on root 
+/* rem - RELATIVE depends on root 
 1rem = 16 px default browser style */
 html{
   font-size: 32px;
@@ -33,7 +33,7 @@ div{
   font-size: 40px;
 }
 .relative{
-  font-size: 1.5rem;
+  font-size: 1.5;
 }
 .absolute{
   font-size: 48px;
