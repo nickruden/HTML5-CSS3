@@ -1,0 +1,23 @@
+div{
+  background: rgb(0, 0, 0);
+  margin: 10px;
+  color: rgb(255, 0, 0);
+}
+
+.none{
+  display: none;
+}
+
+.opacity-1{
+  opacity: 1;
+}
+.opacity-5{
+  opacity: 0.5;
+}
+.opacity-0{
+  opacity: 0;
+}
+
+.visibility{
+  visibility:hidden;
+}
