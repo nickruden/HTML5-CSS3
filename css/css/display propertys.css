@@ -1,0 +1,33 @@
+/* defoult display property
+      block - занимают всю ширину страницы и начинаются с новой строки каждый
+      inline - не начинаются с новой строки и занимают только свой padding */
+.block{
+  background: brown;
+  color: #fff;
+  display: inline;
+}
+.inline{
+  background: rgb(255, 187, 0);
+  color: black;
+  display: block;
+}
+
+/* Horizontal Centring */
+body{
+  text-align: center;
+}
+.block{
+  background: brown;
+  color: #fff;
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  /* or */
+  margin-left: auto;
+  margin-right: auto;
+}
+.inline{
+  background: rgb(255, 187, 0);
+  color: black;
+  display: inline;
+}
