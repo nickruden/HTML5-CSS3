@@ -1,0 +1,23 @@
+.button{
+  margin: 4rem;
+}
+a{
+  text-decoration: none;
+  color: black;
+  padding: 2.5rem 1.5rem;
+  background-color:rgb(255, 153, 0);
+  cursor: pointer;
+  margin: 0 20px;
+}
+.one{
+  border: 0.5rem solid rgb(47, 40, 85);
+}
+.two{
+  outline-width: 0.5 rem;
+  outline-color: rgb(47, 40, 85);
+  outline-style: solid;
+  /*or*/
+  outline: 0.5rem solid rgb(47, 40, 85);
+  outline-offset: 11px;
+  outline-offset: -14px;
+}
