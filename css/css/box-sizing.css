@@ -19,9 +19,9 @@
   color: rgb(222, 255, 213);
 }
 .box-3{
+  padding: 20px;
   background: #FFB563;
   color: rgb(63, 60, 60);
-  padding: 20px;
 }
 
 /* box-sizing - фиксирует размер блока, в соответствии с заданными шириной и высостой */
