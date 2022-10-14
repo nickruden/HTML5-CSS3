@@ -10,6 +10,7 @@ ul li{
   list-style-type: none;
 }
 ul li a{
+  font-size: 1em;
   text-decoration: none;
   text-transform: capitalize;
   color: #000;
@@ -19,4 +20,15 @@ ul li a{
   padding: 20px 20px;
   margin: 10px;
 }
-/* В Inline элементах браузер игнорирует margin-top и margin-bottom, поэтому, чтобы все отсупы отображались коректно, необходимо преобразовывать inline в block */
+
+/* inline-block */
+ul a{
+  font-size: 60px;
+  color:aqua;
+  background: blue;
+  margin: 10px;
+  display: inline-block;
+}
+
+/* В Inline элементах браузер игнорирует margin-top и margin-bottom, поэтому, чтобы все отсупы отображались коректно, необходимо 
+преобразовывать inline в block или же, если не хочется, чтобы элемент занимал вю ширину страницы, можно использовать inline-block */

@@ -1,0 +1,8 @@
+/* inline-block */
+a{
+  font-size: 60px;
+  color:aqua;
+  background: blue;
+  margin: 10px;
+  display: inline-block;
+}
