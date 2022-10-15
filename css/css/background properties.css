@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+  margin: 0 auto;
+  padding-top: 5px;
+  margin-top: 60px;
+}
+
+/* --BACKGROUND PROPERTIES-- */
+div{
+  height: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color:brown;
+  text-decoration: underline overline;
+  text-align: center;
+}
+.big_img{
+  background: url("/css/img/forbackground2.jpg");
+  background-size: 360px;
+}
+.small_img{
+  background: url("/css/img/forbackground.jpg");
+  color: aliceblue;
+}
+.folder_img{
+  background: url("/css/img/forbackground1.jpg");
+  color: rgb(0, 0, 0);
+}
+
+/* --BACKGROUND-REPEAT-- */
+.small_img{
+  border: 2px solid red;
+  color: rgb(142, 199, 248);
+  background-repeat: repeat;
+  background-repeat: no-repeat;
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+  background-repeat: space;
+  background-repeat: round;
+}
+.big_img{
+  background-repeat: round; /* помещает в область целое колл-во рисунков, если не помещается больше чем один, он масштабируется */
+}
+
+
+/* --BACKGROUND-SIZE-- */
+.big_img{
+  background-size: cover;
+}
+.small_img{
+  background-size: cover;
+}
+.folder_img{
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+/* --BACKGROUND-POSITION-- */
+.big_img{
+  background-size: cover;
+  background-repeat: no-repeat;
+ /* background-position: center; */
+}
+.small_img{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: bottom;
+  background-position: left;
+  background-position: right;
+  background-position: top;
+
+  background-position: 100% 100%;/* движение по оси x и y */
+}
+
+
+/* --BACKGROUND-ATTACHMENT-- */
+div{
+  min-height: 100vh;
+  font-size: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.big_img{
+  background: url("/css/img/forbackground2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.small_img{
+  background: url("/css/img/forbackground1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.folder_img{
+  background: url("/css/img/forbackground2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
