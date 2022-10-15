@@ -108,3 +108,30 @@ div{
   background-position: center;
   background-attachment: fixed;
 }
+
+hr{
+  height: 100px;
+}
+
+/* --BACKGROUND IMAGE SHORTCUTS COMBINED-- */
+.banner{
+  text-decoration: none;
+  background: url("/css/img/forbackground2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+.header{
+  background: linear-gradient(rgba(255, 238, 0, 0.5), rgba(255, 0, 0, 0.5)), url('/css/img/forbackground2.jpg') center/cover no-repeat fixed; /*важен именно такой порядок */
+}
+
+.colorzilla{
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f3c5bd+0,e86c57+0,ff6600+31,c72200+100 */
+  background: #f3c5bd; /* Old browsers */
+  background: -moz-linear-gradient(top, #f3c5bd 0%, #e86c57 0%, #ff6600 31%, #c72200 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f3c5bd 0%,#e86c57 0%,#ff6600 31%,#c72200 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f3c5bd 0%,#e86c57 0%,#ff6600 31%,#c72200 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200',GradientType=0 ); /* IE6-9 */
+}
