@@ -1,0 +1,48 @@
+.banner{
+  border: 4px solid brown;
+  overflow: hidden; /* говорит о том, что делать с объектом, который выходит за рамки блока */
+  background: rgba(255, 166, 0, 0.514);
+}
+img{
+  float: right;
+  height: 300px;
+}
+#second{
+  float: left;
+  height: 100px;
+}
+.banner p{
+  clear: left; /* запрещает float к объекту с определённой стороны */
+  text-align: center;
+  margin-top: 50px;
+  font-family: serif;
+}
+
+
+/* FLOAT PROPERTY COLUMN LAYOUT EXAMPLE */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.odin{
+  float: left;
+  background: rgb(226, 43, 43);
+  height: 200px;
+  width: 33%;
+}
+.dva{
+  float: left;
+  background: rgb(86, 226, 43);
+  height: 200px;
+  width: 33%;
+}
+.tri{
+  float: left;
+  background: blueviolet;
+  height: 200px;
+  width: 33%;
+} /* или можно использовать flex-box модель */
+h1{
+  clear: both;
+}
