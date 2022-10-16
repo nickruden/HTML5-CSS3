@@ -1,0 +1,60 @@
+body{
+  background: rgb(245, 202, 122);
+}
+div{
+  border: 5px solid teal;
+  background-color: aquamarine;
+  margin-top: 50px;
+  position: static;
+}
+.p1{
+  background-color: cadetblue;
+  text-align: left;
+}
+.p2{
+  background-color: darkcyan;
+  left: 20px;/* не работает т.к. position: static */
+}
+.special{
+  background-color: blanchedalmond;
+  font-size: 20px;
+}
+
+/* POSITION RELATIVE */
+.p1{
+  background-color: cadetblue;
+  position: relative;
+  /* top: 20px; */
+  /* left: 10rem; */
+  right: 50%; 
+  bottom: 80px;
+}
+
+/* POSITION ABSOLUTE */
+div{
+  position: relative;
+}
+.p2{
+  background-color: darkcyan;
+  /*position: relative;*/
+}
+.special{
+  background-color: blanchedalmond;
+  font-size: 20px;
+  position: absolute; /* опиравется на позицию ближайшего родителя, если у родителя нет её или она не relative, то размещается в зависимости от body */
+  top: 50%;
+  right: 40%;
+}
+
+/* POSITION FIXED */
+button{
+  background-color: brown;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  color:azure;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 100px;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
