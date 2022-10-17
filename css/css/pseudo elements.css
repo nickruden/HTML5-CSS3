@@ -13,7 +13,7 @@ p::after{
   color: blue;
 }
 p::after{
-  content: " "; /* без данного параметра пвсевдо элементы до и после не будут работать */
+  content: " "; /* без данного параметра пвсевдоэлементы до и после не будут работать */
   display: block;
   background-color: brown;
   height: 100px;
