@@ -40,7 +40,7 @@ p::first-letter{
   font-size: 40px;
 }
 
-/* :HOVER :LINK :ACTIVE :VISITED PSEUDO CLASSES*/
+/* :HOVER :LINK :ACTIVE :VISITED PSEUDO-CLASSES*/
 #p2:hover{
   color:aqua;
 }
