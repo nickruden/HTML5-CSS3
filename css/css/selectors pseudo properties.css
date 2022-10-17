@@ -1,0 +1,79 @@
+/* BASIC SELECTORS */
+*{
+  color: black;
+}
+#h1{
+  font-size: 60px;
+  text-transform: uppercase;
+  color: blueviolet;
+}
+.h1{
+  font-size: 40px;
+  text-transform: capitalize;
+  color: chocolate;
+}
+#p1{
+  font-size: 20px;
+  letter-spacing: 10px;
+}
+
+/* DESCENDANT AND CHILD COMBINATORS */
+div h1{ /*значения примут все потомки, которые подходят по названию */
+  color: red;
+}
+div > h1{ /* только дочерний элемент примет значение */
+  color: blue;
+}
+.header h1{ /* применится это значение, так как использование класса конкретнее, приоритетность */
+  color: green;
+}
+.header > h1{
+  color: goldenrod;
+}
+
+/* ::FIRST-LINE AND ::FIRST-LETTER  */
+p::first-line{
+  font-weight: bold;
+  color:chocolate;
+}
+p::first-letter{
+  font-size: 40px;
+}
+
+/* :HOVER :LINK :ACTIVE :VISITED PSEUDO CLASSES*/
+#p2:hover{
+  color:aqua;
+}
+.hea:hover{
+  background-color: rgb(255, 174, 0);
+}
+a:hover{
+  text-decoration: none;
+}
+
+a:link{
+  color:rgb(0, 255, 234)
+}
+a:visited{
+  color: red;
+}
+a:hover{
+  color: green;
+}
+a:active{
+  color: midnightblue;
+}
+
+/* :ROOT  */
+:root{ /* корневое свойство, его принимают все элементы на странице, если меняется значение здесь, то и все адаптивные элементы также меняют свои значения */
+  font-size: 150%;
+}
+.h1forroot{
+  font-size: 3rem;
+}
+.absolute{
+  font-size: 20px;
+}
+.relative{
+  font-size: 1.5rem;
+}
