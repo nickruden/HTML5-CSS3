@@ -1,0 +1,40 @@
+/* --varName:-value
+property:var(--varName)
+scope
+:root{} === global
+element === local */
+.heading{
+  color: orchid;
+}
+.text{
+  color:blue;
+}
+.main-text{
+  color:darkorange;
+}
+.vtoroy-heading{
+  color:green;
+}
+
+:root{ /*global */
+  --primaryColor: blue;
+  --secondaryColor: red;
+  --mainTransition: all 1s linear;
+}
+.heading{
+  color: var(--primaryColor);
+}
+.vtoroy-heading{
+  color: var(--primaryColor);
+  transition: var(--mainTransition);
+}
+.vtoroy-heading:hover{
+  color:var(--secondaryColor);
+}
+
+div{
+  --primaryGreen: green; /* local */
+}
+.main-text{
+  color: var(--primaryGreen);
+}
