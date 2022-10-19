@@ -1,0 +1,71 @@
+/* TRANSITION 0 = 100% 
+   ANIMATION 0 1% 2% ... 100% */
+div{
+  width: 300px;
+  height: 200px;
+  margin: 10px; 
+  color:azure;
+  text-transform: uppercase;
+}
+.transition{
+  background-color: brown;
+  transition: all 1s linear;
+}
+.transition:hover{
+  background-color: green;
+  transform: translateX(100px);
+}
+
+.animation{
+  background-color: darkorange;
+  animation-name: move;
+  animation-duration: 10s;
+  animation-iteration-count: 3;
+  /* or */
+  animation: move 4s infinite;
+}
+@keyframes move {
+  0% {
+    transform: translateX(20px);
+  }
+  50% {
+    transform: translateX(200px);
+  }
+  50% {
+    transform: translateX(-50px);
+  }
+  100% {
+    transform: translateX(80px);
+  }
+}
+
+/* ANIMATION-FILL-MODE */
+div{
+  width: 300px;
+  height: 200px;
+  margin: 10px; 
+  color:azure;
+  text-transform: uppercase;
+}
+.animation2{
+  background-color: rgb(0, 255, 13);
+  animation: move2 5s 2;
+  animation-fill-mode: forwards; /* определяет то, какой свойство будет у элемента, когда закончится анимация */
+}
+@keyframes move2 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    transform: translateX(200px);
+    opacity: 0.25;
+  }
+  50% {
+    transform: translateX(-100px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(20px);
+    opacity: 0.5;
+  }
+}
