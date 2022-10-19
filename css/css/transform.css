@@ -1,0 +1,76 @@
+/* TRANSFORM: TRANSLATE() */
+div{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+.odin{
+    background-color: cornflowerblue;
+    transform: translateX(50%);/* двигаемся на 50% от ширины блока, т.е. на 100px */
+}
+.dva{
+    background-color: rgb(143, 237, 100);
+    transform: translateY(-40px);
+}
+.tri{
+    background-color: rgb(237, 182, 100);
+    /* transform: translateX(70px); */
+    transform: translate(100px, 400px);
+}
+
+/* TRANSFORM: SCALE() размер элемента умножается на число в скобках */
+div{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+.odin{
+    background-color: cornflowerblue;
+    transform: scaleX(0.5);
+}
+.dva{
+    background-color: rgb(143, 237, 100);
+    transform: scaleY(1.3);
+}
+.tri{
+    background-color: rgb(237, 182, 100);
+    transform: scale(0.8, 2);
+}
+
+/* TRANSFORM: ROTATE() */
+div{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+.odin{
+    background-color: cornflowerblue;
+    transform: rotate(340deg)
+}
+.dva{
+    background-color: rgb(143, 237, 100);
+    transform: rotateZ(45deg) /* deg = градусы */
+}
+.tri{
+    background-color: rgb(237, 182, 100);
+    transform: rotateX(20deg);
+}
+
+/* TRANSFORM: SKEW() */
+div{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+.odin{
+    background-color: cornflowerblue;
+    transform: skewX(20deg);
+}
+.dva{
+    background-color: rgb(143, 237, 100);
+    transform: skewX(-20deg);
+}
+.tri{
+    background-color: rgb(237, 182, 100);
+    transform: skew(20deg, 20deg);
+}
