@@ -1,0 +1,23 @@
+/* TEXT-SHADOW */
+h1{
+  text-shadow: 1px 1px 3px red; /* порядок значений text-shadow: ...px - движение по оси X, ...px - движение по оси Y, ...px - размытие тени, color - цвет тени */
+}
+
+/* BOX-SHADOW */
+.box{
+  width: 300px;
+  height: 200px;
+  background: green;
+  margin: 20px;
+  box-shadow: 10px 10px 10px gold;
+  transition: all 3s linear;
+}
+
+/* BOX SHADOW CSS GENERATOR */
+.box:hover{
+  box-shadow: -12px 12px 17px -5px rgba(106,92,92,0.83); 
+
+  /* Browser Prefixes - префиксы никак не влияют не свойства CSS, но помогают понять, какой бразуер сможет это запустить, для каждого браузера свой префикс */ 
+  -webkit-box-shadow: -12px 12px 17px -5px rgba(106,92,92,0.83);
+  -moz-box-shadow: -12px 12px 17px -5px rgba(106,92,92,0.83);
+}
