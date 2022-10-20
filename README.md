@@ -1,4 +1,4 @@
-<h1> Стартовый курс по изучению Web-разработки</h1>
+<h1> Стартовый курс по изучению основ HTML5 и CSS3</h1>
 
 Данный курс включает в себя изучение основ:<br>
 ![CSS](https://img.shields.io/badge/CSS3-0062f5?style=for-the-badge&logo=css3&logoColor=white)
